@@ -1,2 +1,9 @@
 var textOutputElement = document.getElementById('textOutput');
-textOutputElement.innerHTML = 'we gonna draw some squiggles';
+var messages = [
+    'Bob',
+    'goat',
+    'learn_to_code',
+    'hello_world',
+];
+var currentMessageIndex = 3;
+textOutputElement.innerHTML = messages[currentMessageIndex];
